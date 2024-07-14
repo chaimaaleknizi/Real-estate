@@ -44,7 +44,7 @@ const Section1 = () => {
             <div className={styles.price_container}>
               <span>Price Range</span>
               <select
-                name="Price"
+                name="price"
                 id="price"
                 onChange={(e) => setPrice(e.target.value)}
               >
