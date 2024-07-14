@@ -6,8 +6,8 @@ import { useState } from "react";
 import building1 from "../../../../assets/building1.jpg";
 
 const Section1 = () => {
-  const [price, setPrice] = useState("<100k");
-  const [location, setLocation] = useState("");
+  const [setPrice] = useState("<100k");
+  const [setLocation] = useState("");
 
   return (
     <section className={styles.section_1}>
